@@ -10,7 +10,7 @@ namespace CSharpFundamentals.concepts
     {
         public BasicClass()
         {
-            
+            Console.WriteLine("This is constructor");
         }
     }
 }
