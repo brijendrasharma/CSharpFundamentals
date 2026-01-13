@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CSharpFundamentals.concepts;
 Console.WriteLine("Hello, World!");
-int a = "xy";
 BasicClass basicClass = new BasicClass();
 char bchar = basicClass.returnBasicChar();
 int bnumber = basicClass.returnBasicNumber();
