@@ -18,6 +18,7 @@ namespace CSharpFundamentals.concepts
         }
         public BasicClass(string BasicName, int BasicNumber, char BasicChar)
         {
+            //paramterized constructor
             basicChar = BasicChar;
             basicName = BasicName;
             basicNumber = BasicNumber;
