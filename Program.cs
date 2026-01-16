@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CSharpFundamentals.concepts;
+using CSharpFundamentals.concepts.Inheritance;
 Console.WriteLine("Hello, World!");
 
 /*BasicClass basicClass = new BasicClass();
@@ -15,7 +16,7 @@ string bnamepc = basicClassParameterizedConstructor.returnBasicName();
 Console.WriteLine($"Called Parameterized constructor and got char:{bcharpc}, name:{bnamepc}, number:{bnumberpc}");*/
 
 // Fixed object initializer syntax and property assignment
-BasicProperties basicProperties = new BasicProperties() { 
+/*BasicProperties basicProperties = new BasicProperties() { 
     IsTouchScreen = "Yes",
     LaptopModel="Lenovo ideapad slim 3",
     LaptopOS="windows",
@@ -30,4 +31,9 @@ Console.WriteLine($"{nameof(basicProperties.SSDCapacity)}:{basicProperties.SSDCa
 Console.WriteLine($"{nameof(basicProperties.IsTouchScreen)}: {basicProperties.IsTouchScreen}");
 Console.WriteLine($"{nameof(basicProperties.Processor)}: {basicProperties.Processor}");
 Console.WriteLine($"{nameof(basicProperties.RAMCapacity)}: {basicProperties.RAMCapacity}");
-Console.WriteLine($"{nameof(basicProperties.LaptopId)}: {basicProperties.LaptopId}");
+Console.WriteLine($"{nameof(basicProperties.LaptopId)}: {basicProperties.LaptopId}");*/
+
+//INheritance
+
+DerivedClassCar Baleno = new DerivedClassCar("Natural Aspirated","Petrol", 20, 1199, "Hatchback", "Maruti Suzuki");
+Baleno.GetCarDetails();
