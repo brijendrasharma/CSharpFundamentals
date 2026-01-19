@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFundamentals", "CSharpFundamentals.csproj", "{6CB3CD39-C0E5-4C2B-82AB-58EEF3213CCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentExpenseManagement", "..\AssignmentExpenseManagement\AssignmentExpenseManagement.csproj", "{0722EDA5-2A2D-4ACB-AFF2-9FAF5BC5017F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6CB3CD39-C0E5-4C2B-82AB-58EEF3213CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CB3CD39-C0E5-4C2B-82AB-58EEF3213CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CB3CD39-C0E5-4C2B-82AB-58EEF3213CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0722EDA5-2A2D-4ACB-AFF2-9FAF5BC5017F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0722EDA5-2A2D-4ACB-AFF2-9FAF5BC5017F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0722EDA5-2A2D-4ACB-AFF2-9FAF5BC5017F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0722EDA5-2A2D-4ACB-AFF2-9FAF5BC5017F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
